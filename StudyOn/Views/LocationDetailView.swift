@@ -212,7 +212,7 @@ struct LocationDetailView: View {
         CommentsView(comments: studyLocation?.comments ?? [])
           VStack(alignment: .leading) {
                               TextField("Your name", text: $userName)
-                                  .textFieldStyle(RoundedBorderTextFieldStyle())
+                                  .textFieldStyle(RoundeorderTextFieldStyle())
                                   .padding(.horizontal)
                                   .disabled(true)
 
